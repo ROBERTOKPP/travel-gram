@@ -4,6 +4,8 @@
   box-sizing: border-box;
 }
 :root{
+
+  /* Cores do projeto   */
   --brand-color:#EF5F4C;
   --background-color:#FFFFFF;
   --surface-color:#F5F5F5;
@@ -11,6 +13,14 @@
   --shape-transparency:#ffffff91;
   --text-color-primary:#313131;
   --text-color-secondary:#6C6C6C;
+
+  /* Fontes do Projeto e tamanhos de fontes */
+  --font-family: "Poppins", sans-serif;
+  --text-lg: 32px/125% bold var(--font-family); 
+  --text: 16px var(--font-family);
+  --text-md: 14px/170% var(--font-family);
+  --text-sm: 12px/170% var(--font-family);
+
 }
 body {
   background-color: var(--background-color);
