@@ -1,0 +1,19 @@
+header{
+padding-block: 32px;
+}
+#profile img{
+  border-radius: 50%;
+}
+#profile{
+  display: flex;
+  gap: 32px;
+}
+
+#profile > div{
+  width: 384px;
+  align-content: center;
+}
+
+.conteiner #profile h1{
+  color: var(--text-color-primary);
+}
