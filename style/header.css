@@ -1,19 +1,46 @@
 header{
-padding-block: 32px;
+  padding-block: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
+
 #profile img{
   border-radius: 50%;
 }
 #profile{
   display: flex;
+  align-items: center;
   gap: 32px;
 }
 
 #profile > div{
   width: 384px;
-  align-content: center;
 }
 
-.conteiner #profile h1{
+#profile h1{
+  font: var(--text-lg);
   color: var(--text-color-primary);
+  margin-bottom: 8px;
+}
+
+#profile p {
+  font: var(--text-md);
+}
+#info {
+  align-items: center;
+  width: 280px;
+}
+
+#info ul{  
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+#info li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
